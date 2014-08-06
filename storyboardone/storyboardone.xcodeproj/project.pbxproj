@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D032A381991C9AF0009AAEC /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D032A371991C9AF0009AAEC /* PlayersTableViewController.m */; };
+		7D032A3B1991D1210009AAEC /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D032A3A1991D1210009AAEC /* Player.m */; };
 		7D41D47E1990D67700C8802F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D41D47D1990D67700C8802F /* Foundation.framework */; };
 		7D41D4801990D67700C8802F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D41D47F1990D67700C8802F /* CoreGraphics.framework */; };
 		7D41D4821990D67700C8802F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D41D4811990D67700C8802F /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D032A361991C9AF0009AAEC /* PlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
+		7D032A371991C9AF0009AAEC /* PlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
+		7D032A391991D1210009AAEC /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		7D032A3A1991D1210009AAEC /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		7D41D47A1990D67700C8802F /* storyboardone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storyboardone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D41D47D1990D67700C8802F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D41D47F1990D67700C8802F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +123,10 @@
 				7D41D48F1990D67700C8802F /* Main.storyboard */,
 				7D41D4921990D67700C8802F /* ViewController.h */,
 				7D41D4931990D67700C8802F /* ViewController.m */,
+				7D032A361991C9AF0009AAEC /* PlayersTableViewController.h */,
+				7D032A371991C9AF0009AAEC /* PlayersTableViewController.m */,
+				7D032A391991D1210009AAEC /* Player.h */,
+				7D032A3A1991D1210009AAEC /* Player.m */,
 				7D41D4951990D67700C8802F /* Images.xcassets */,
 				7D41D4841990D67700C8802F /* Supporting Files */,
 			);
@@ -254,7 +264,9 @@
 			files = (
 				7D41D4941990D67700C8802F /* ViewController.m in Sources */,
 				7D41D48E1990D67700C8802F /* AppDelegate.m in Sources */,
+				7D032A381991C9AF0009AAEC /* PlayersTableViewController.m in Sources */,
 				7D41D48A1990D67700C8802F /* main.m in Sources */,
+				7D032A3B1991D1210009AAEC /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +473,7 @@
 				7D41D4AE1990D67700C8802F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D41D4AF1990D67700C8802F /* Build configuration list for PBXNativeTarget "storyboardoneTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				7D41D4B11990D67700C8802F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
